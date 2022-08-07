@@ -90,5 +90,20 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="73dynamic_cast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="74BenchmarkingTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="75StructuredBindings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="76Optional.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="77Variant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

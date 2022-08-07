@@ -7,23 +7,26 @@
 
 //chrono库
 //计时本身有开销，故休眠时间不一定
+namespace ob_time {
 
-struct Timer {
-	std::chrono::time_point<std::chrono::steady_clock> start, end;
-	std::chrono::duration<float> duration;
-	Timer() {
-		start = std::chrono::high_resolution_clock::now();//记录初始化时间
-	}
-	~Timer() {
-		end = std::chrono::high_resolution_clock::now();//记录析构时间
-		duration = end - start;
-		float ms = duration.count() * 1000.0f;
-		std::cout << "Timer took=" << ms <<"ms" << std::endl;
-	}
-};
 
+	struct Timer {
+		std::chrono::time_point<std::chrono::steady_clock> start, end;
+		std::chrono::duration<float> duration;
+		Timer() {
+			start = std::chrono::high_resolution_clock::now();//记录初始化时间
+		}
+		~Timer() {
+			end = std::chrono::high_resolution_clock::now();//记录析构时间
+			duration = end - start;
+			float ms = duration.count() * 1000.0f;
+			std::cout << "Timer took=" << ms << "ms" << std::endl;
+		}
+	};
+}
 
 void function() {
+	using namespace ob_time;
 	Timer timer;
 	for (int i = 0; i < 100; i++) {
 		//std::cout << "hello" << std::endl;
