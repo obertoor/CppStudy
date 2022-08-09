@@ -11,6 +11,7 @@
 //C++17新特性
 //单一变量存放多种类型的数据
 //除非为了内存性能,否则更应该使用Variant,而不是Union
+//类型安全的union
 
 
 //使用 ,
@@ -57,11 +58,11 @@ int main() {
 	std::cout << "data03大小为" <<sizeof(data03) << "\n";
 
 
-
+	
 
 
 	data03 = "data";
-	std::string strdata = std::get<std::string>(data03);//获取string
+	std::string& strdata = std::get<std::string>(data03);//获取string,使用&可以避免复制
 	std::cout << "data03为" << std::get<std::string>(data03) << "\n";
 	data03 = 12;
 	std::cout << "data03为" << std::get<int>(data03) << "\n";

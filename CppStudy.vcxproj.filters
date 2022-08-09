@@ -105,5 +105,17 @@
     <ClCompile Include="77Variant.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="78Any.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="79Async.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="80String_view.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21Static.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

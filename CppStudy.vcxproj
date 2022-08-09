@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="16Pointer.cpp" />
     <ClCompile Include="17Reference.cpp" />
+    <ClCompile Include="21Static.cpp" />
     <ClCompile Include="34Const.cpp" />
     <ClCompile Include="44SmartPointer.cpp" />
     <ClCompile Include="53Template.cpp" />
@@ -177,6 +178,9 @@
     <ClCompile Include="75StructuredBindings.cpp" />
     <ClCompile Include="76Optional.cpp" />
     <ClCompile Include="77Variant.cpp" />
+    <ClCompile Include="78Any.cpp" />
+    <ClCompile Include="79Async.cpp" />
+    <ClCompile Include="80String_view.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
