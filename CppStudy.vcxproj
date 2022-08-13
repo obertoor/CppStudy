@@ -108,6 +108,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);CS_RELEASE</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessToFile>false</PreprocessToFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -149,6 +150,7 @@
     <ClCompile Include="17Reference.cpp" />
     <ClCompile Include="21Static.cpp" />
     <ClCompile Include="34Const.cpp" />
+    <ClCompile Include="36InitializeList.cpp" />
     <ClCompile Include="44SmartPointer.cpp" />
     <ClCompile Include="53Template.cpp" />
     <ClCompile Include="54PileAndStack.cpp" />
@@ -181,6 +183,11 @@
     <ClCompile Include="78Any.cpp" />
     <ClCompile Include="79Async.cpp" />
     <ClCompile Include="80String_view.cpp" />
+    <ClCompile Include="81VisualizationTest.cpp" />
+    <ClCompile Include="82Singleton.cpp" />
+    <ClCompile Include="83StringOptimization.cpp" />
+    <ClCompile Include="84FollowMemory.cpp" />
+    <ClCompile Include="85LvalueAndLvalue.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
