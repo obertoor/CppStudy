@@ -6,7 +6,7 @@ using namespace std;
 //const就像承诺，先程序承诺某些东西不变，但是可以绕过
 //两种内涵：编译期常量（constexpr），只读变量
 //const首先作用于左边的东西；如果左边没东西，就做用于右边的东西
-
+//const可以修饰一般的变量，这样的变量我们称之为常变量，常变量的值是不能修改的。
 
 class Entity
 {
@@ -34,6 +34,8 @@ public:
 void PrintEntity(const Entity& e) {//这样传递参数可以避免复制Entity
 	cout << e.GetX() << endl;
 }
+
+
 #if 0
 int main() {
 	int a = 5;
@@ -67,5 +69,34 @@ int main() {
 	//关键在const 位于  * 的哪一边
 
 	const int* const ccccc = new int;
+
+	//指针常量
+	//指向常量的指针变量
+	//不能通过通过指针变量改变它指向的对象的值
+	int ca = 10;
+	const int* pa;
+	pa = &ca;
+	//*pa = ca;//报错，表达式必须是可以修改的左值。
+	ca = 20;//合法
+	cout << "pa:" << pa << endl;
+	pa = &a;
+	cout << "ca:" << ca << endl;
+
+
+	//常指针(常地址)
+	//针值(地址)不能改变,必须在定义时初始化
+	int ac = 10;
+	int bc = 20;
+	int* const pc = &ac;
+	*pc = ac;//合法
+	//pc = &bc;//报错，表达式必须是可以修改的左值。
+	cout << "ac:" << ac << endl;
+	cout << "pc:" << pc << endl;
+
+	ac = 50;
+	cout <<"ac:" << ac << endl;
+	cout << "pc:" << pc << endl;
+	//地址不变,但值可以改变
+	return 0;
 }
 #endif

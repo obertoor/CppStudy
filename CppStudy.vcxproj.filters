@@ -135,5 +135,20 @@
     <ClCompile Include="85LvalueAndLvalue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="86.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="87.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="88ParameterCalculationOrder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="89Move.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="90StdMove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

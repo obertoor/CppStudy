@@ -15,7 +15,8 @@
 //该智能指针拥有一块内存,叫控制块,用于存储引用计数
 
 
-////weak_ptr:弱指针,不会增加引用计数的shared_ptr,不影响所指对象生命周期
+//weak_ptr:弱指针,不会增加引用计数的shared_ptr,不影响所指对象生命周期
+
 //operator=()	重载 = 赋值运算符，weak_ptr指针可以直接被weak_ptr或者shared_ptr类型指针赋值。
 //swap(x)		其中x表示一个同类型的weak_ptr类型指针，该函数可以互换2个共同类型weak_ptr指针的内容。
 //reset()		将当前weak_ptr指针置为空指针。

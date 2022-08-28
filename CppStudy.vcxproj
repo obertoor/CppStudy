@@ -188,6 +188,11 @@
     <ClCompile Include="83StringOptimization.cpp" />
     <ClCompile Include="84FollowMemory.cpp" />
     <ClCompile Include="85LvalueAndLvalue.cpp" />
+    <ClCompile Include="86.cpp" />
+    <ClCompile Include="87.cpp" />
+    <ClCompile Include="88ParameterCalculationOrder.cpp" />
+    <ClCompile Include="89Move.cpp" />
+    <ClCompile Include="90StdMove.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

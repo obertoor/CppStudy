@@ -5,7 +5,7 @@
 
 //本节主题  跟踪内存
 
-
+#if 0
 struct AllocationMetrics
 {
 	uint32_t TotalAllocated = 0;
@@ -34,6 +34,8 @@ void operator delete(void* memory,size_t size) {
 static void PrintMemoryUsage() {
 	std::cout << "已使用内存：" << s_AllocationMetrics.CurrentUsage() << "bytes\n";
 }
+#endif
+
 
 
 struct Object

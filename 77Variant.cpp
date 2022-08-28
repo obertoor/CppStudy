@@ -14,7 +14,7 @@
 //类型安全的union
 
 
-//使用 ,
+//使用 枚举
 enum class ErrorCode
 {
 	None = 0,//没有错误
