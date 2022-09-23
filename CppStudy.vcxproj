@@ -148,9 +148,13 @@
   <ItemGroup>
     <ClCompile Include="16Pointer.cpp" />
     <ClCompile Include="17Reference.cpp" />
+    <ClCompile Include="19ClassAndStruct.cpp" />
     <ClCompile Include="21Static.cpp" />
+    <ClCompile Include="22ClassStatic.cpp" />
+    <ClCompile Include="24Enumeration.cpp" />
     <ClCompile Include="34Const.cpp" />
     <ClCompile Include="36InitializeList.cpp" />
+    <ClCompile Include="40HiddenConversionAndExplicit.cpp" />
     <ClCompile Include="44SmartPointer.cpp" />
     <ClCompile Include="53Template.cpp" />
     <ClCompile Include="54PileAndStack.cpp" />
@@ -193,6 +197,7 @@
     <ClCompile Include="88ParameterCalculationOrder.cpp" />
     <ClCompile Include="89Move.cpp" />
     <ClCompile Include="90StdMove.cpp" />
+    <ClCompile Include="91Wrapper.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

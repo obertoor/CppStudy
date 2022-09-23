@@ -150,5 +150,20 @@
     <ClCompile Include="90StdMove.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="19ClassAndStruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22ClassStatic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40HiddenConversionAndExplicit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="91Wrapper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24Enumeration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
